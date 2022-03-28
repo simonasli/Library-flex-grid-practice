@@ -1,0 +1,86 @@
+header {
+  background-color: white;
+}
+
+body {
+  background-color: #eee;
+  font-size: x-large;
+}
+
+header img,
+a {
+  display: block;
+  text-align: center;
+}
+
+header img {
+  margin: auto;
+  width: 10rem;
+}
+
+header a {
+  padding: 1rem;
+  text-decoration: none;
+}
+main div {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px gray;
+  color: rgb(71, 75, 99);
+  font-size: medium;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem 1rem 1rem;
+  text-align: center;
+  width: 90%;
+}
+
+footer {
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  border-color: rgb(163, 161, 161);
+  text-align: left;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+td,
+th {
+  border-bottom: 1px solid rgb(163, 161, 161);
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+
+p {
+  color: rgb(71, 75, 99);
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .headeris {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 14%;
+  }
+  header img {
+    margin: 0%;
+    padding: 1rem;
+    width: 5rem;
+  }
+  header a {
+    justify-content: end;
+  }
+  a {
+    text-align: center;
+    height: auto;
+    padding: 0.5rem 0;
+  }
+  main div {
+    width: 70%;
+  }
+  .linkai {
+    align-items: center;
+    display: flex;
+  }
+}
